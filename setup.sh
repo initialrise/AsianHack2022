@@ -1,3 +1,4 @@
+pip install -r requirements.txt
 apt install opencv-python
 mkdir yolofiles
 cd yolofiles/
