@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>Play Audio</title>
+    <link rel="stylesheet" href="static/visualizer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="static/visualizer.js"></script>  </head>
+<body>
+  <!-- <div class="wrapper wrapper-center">
+
+    <h1>Audio Player</h1>
+    <div class="play">
+    <audio preload="auto" style="width: 600px;" width="100px" controls id="audioplayer" loop="loop">
+      <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    </div>
+
+    </div>  -->
+
+    <div class="vz-wrapper">
+      <audio id="myAudio" src="path/to/source/audio" data-author="insert/author/name" data-title="insert/audio/name"></audio>
+  
+      <div class="vz-wrapper -canvas">
+          <canvas id="myCanvas" width="800" height="400"></canvas>
+      </div>
+  </div>
+</body>
+
+
+<script>
+  window.onload = function() {
+    document.getElementById("audioplayer").play();
+}
+
+window.location.reload = function() {
+    document.getElementById("audioplayer").play();
+}
+
+
+</script>
+</html>
