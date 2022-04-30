@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="" type="image/x-icon">
+    <link rel="icon" href="upload.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +10,19 @@
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
+    <form method=post enctype=multipart/form-data>
     <div class="wrapper">
         <div class="file-upload">
-          <input type="file" accept="image/*" capture="camera">
-          
-            <div class="btn">
-              <i class="fa fa-image"></i>
-                Upload Image
-            </div>
+          <i class="fa fa-image"></i>
+          <h1>select</h1>
+          <input type="file" accept="image/*" capture="camera" name="file"> 
+        </div>
+        <div class="btn">
+          <input type="submit">
+          <h1>upload</h1>
         </div>
     </div> 
+	</form>
 
     
 </body>

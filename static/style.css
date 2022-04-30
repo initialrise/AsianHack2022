@@ -15,7 +15,7 @@
     padding: 4em 7em;
   }
   
-  .wrapper {
+  .wrapper, form {
     width: 100%;
     height: 100%;
     display: flex;

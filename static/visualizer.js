@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var visualizer = AUDIO.VISUALIZER.init({
         autoplay: true,
-        loop: true,
+        loop: false,
         audio: 'myAudio',
         canvas: 'myCanvas',
         style: 'lounge',
