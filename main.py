@@ -17,8 +17,15 @@ def audio_generator():
     detected_message ="Third Vision Initiated !"
 
     if(len(objectlist)>0):
+        personcount = objectlist.count('person')
+        if personcount > 1:
+            detected_message += f"{personcount} people were detected !"
+        else:
+            detected_message += f"{personcount} person was detected !"
+
         for obj in objectlist:
-            detected_message += f"{obj} was detected! "
+            if(obj!="person"):
+                detected_message += f"{obj} was detected! "
     else:
         detected_message += " Nothing was detected."
     print(detected_message)
