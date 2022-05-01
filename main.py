@@ -21,7 +21,8 @@ def audio_generator():
         if personcount > 1:
             detected_message += f"{personcount} people were detected !"
         else:
-            detected_message += f"{personcount} person was detected !"
+            #detected_message += f"{personcount} person was detected !"
+            pass
 
         for obj in objectlist:
             if(obj!="person"):
