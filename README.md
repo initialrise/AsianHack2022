@@ -1,6 +1,7 @@
 # AsianHack2022
+Team Name: **Brogrammers**
 
-Team Name Brogrammers
-Members
-1. Yugesh Raj Shilakar
-2. Ojash Devkota
+1. [Rabindra Man Bajracharya](https://www.github.com/initialrise)
+2. [Yugesh Raj Shilakar](https://www.github.com/yugesh-shilakar)
+3. [Ojash Devkota](https://www.github.com/Ojash042)
+4. [Amir Shrestha](https://www.github.com/sthaamir57)
