@@ -17,3 +17,4 @@ The project was developed by a team called "Brogrammers" for the Asian Hack 2022
 <li>Real-time Detection: For video input, the system continuously analyzes frames to provide real-time object detection. This feature allows users to monitor live video feeds for object identification.
 <li>Bounding Box Visualization: Detected objects are highlighted using bounding boxes, providing visual cues to identify the location of each object within the image or video.
 <li>Object Labels: The system also labels the detected objects, providing textual information about the identified objects.
+  
