@@ -1,4 +1,4 @@
-# Object Detection using Flask and OpenCV
+# Object Detection using OpenCV and YOLOV3
 
 ### Project Third Vision
 This project is an object detection system implemented using Flask and OpenCV. It utilizes computer vision techniques to identify and localize objects within an image or video stream. The system is designed to be deployed as a web application, allowing users to upload images or provide a video feed for real-time object detection.
