@@ -24,11 +24,12 @@ The project was developed by a team called "Brogrammers" for the Asian Hack 2022
 <li>Upload an image or provide a video URL to perform object detection.
 <li>View the detected objects with bounding boxes and corresponding labels.
 </ul>
-### Team Name: Brogrammers
-Hackathon: Asian Hack 2022
+
+### Team Name: Brogrammers<br>
+Hackathon: Asian Hack 2022<br>
 Position: 3rd
 
-### Contributors
+### Contributors/Team Members
 1. [Rabindra Man Bajracharya](https://www.github.com/initialrise)
 2. [Yugesh Raj Shilakar](https://www.github.com/yugesh-shilakar)
 3. [Ojash Devkota](https://www.github.com/Ojash042)
