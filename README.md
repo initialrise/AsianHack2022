@@ -17,9 +17,13 @@ The project was developed by a team called "Brogrammers" for the Asian Hack 2022
 <ul>
 <li>Clone the repository from the GitHub link: https://github.com/initialrise/AsianHack2022.git
 <li>Install the required dependencies by running the following command:</br>
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 <li>Run the Flask web application using the following command:</br>
-`python main.py`
+``` 
+python main.py
+```
 <li>Access the web application by opening a web browser and navigating to http://localhost:5000.
 <li>Upload an image or provide a video URL to perform object detection.
 <li>View the detected objects with bounding boxes and corresponding labels.
